@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px 30px 30px 30px;
+    background-color: rgba(255, 138, 35, 0.442);
+}
+
+header>h1 {
+    font-size: 50px;
+    padding-bottom: 2%;
+}
+
+.titulo {
+    padding-bottom: 2%;
+    font-size: xx-large;
+    font-size: 45px;
+
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.379);
+    border: 1px solid black;
+    font-size: medium;
+    padding: 7px;
+}
+
+nav {
+    position: absolute;
+    right: 5%;
+}
+
+
+.imagen {
+    width: 100%;
+    height: 400px;
+}
+
+.boton-verde {
+    background-color: rgb(112, 173, 071);
+}
+
+.boton-azul {
+    background-color: rgb(068, 114, 196);
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    border: 2px solid black;
+}
+
+
+.texto {
+    padding: 75px;
+
+}
+
+.espacio {
+    margin-bottom: 6%;
+}
+
+.sangría {
+    text-indent: 4%;
+}
+
+
+
+.flex-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 330px;
+    height: 330px;
+    margin: 16px;
+}
+
+
+
+.container-about {
+    width: 750px;
+    height: auto;
+    margin: 16px;
+    border-style: dashed;
+}
+
+
+ol {
+    list-style-type: lower-latin;
+}
+
+ul {
+    list-style: circle;
+}
+
+.container-rules{
+    width: 750px;
+    height: auto;
+    margin: 16px;
+    flex-direction: column;
+}
+
+.games{
+    text-decoration:underline;
+}
+
+
+
+table {
+    border: 1px solid red;
+    margin: 5px;
+}
+th{
+    font-size: 30px;
+    background-color: rgb(195, 188, 188);
+}
+
+td{
+    font-size: 20px;
+  padding: 1%;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 10%;
+    font-size:x-large;
+    background-color: rgba(175, 174, 174, 0.507);
+}
